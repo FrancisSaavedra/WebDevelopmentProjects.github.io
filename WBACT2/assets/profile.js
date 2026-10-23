@@ -6,21 +6,21 @@ var CHARACTERS = {
     subtitle: "Former SOLDIER 1st Class &middot; Shinra",
     page: "sephiroth.html",
     blurb: "Masamune, Supernova, and the Nibelheim turning point.",
-    portrait: { img: "../images/portrait", alt: "Sephiroth portrait", ph: "images/portrait<br>(face close-up)", focus: "50% 30%" },
-    fullArt:  { img: "../images/full_art", alt: "Sephiroth full art", ph: "images/full_art<br>(full body)" },
+    portrait: { img: "../images/portrait.webp", alt: "Sephiroth portrait", ph: "images/portrait<br>(face close-up)", focus: "50% 30%" },
+    fullArt:  { img: "../images/sephiroth-full-art.jpg", alt: "Sephiroth full art", ph: "images/full_art<br>(full body)" },
     role: {
       title: "Main Antagonist",
       list: "Final Fantasy VII (1997), Final Fantasy VII: Advent Children (2005), Final Fantasy VII: Last Order (2006), Final Fantasy VII: Rebirth (2024)"
     },
-    weapon: { name: "Masamune", note: "An exceptionally long katana", img: "../images/masamune", alt: "Masamune", ph: "images/masamune", mediaClass: "sword" },
+    weapon: { name: "Masamune", note: "An exceptionally long katana", img: "../images/masamune.png", alt: "Masamune", ph: "images/masamune", mediaClass: "sword" },
     stat: { label: "Rank", value: "1st Class", note: "Hero of the Wutai War" },
     move: {
       name: "Supernova",
       sub: "Final Fantasy VII &middot; Final Battle",
       text: "A world ending spell.",
-      img: "../images/supernova"
+      img: "../images/supernova.png"
     },
-    landscape: { img: "../images/landscape sephiroth", alt: "Landscape", ph: "images/landscape<br>(wide landscape image)", focus: "50% 35%" },
+    landscape: { img: "../images/landscape-sephiroth.jpg", alt: "Landscape", ph: "images/landscape<br>(wide landscape image)", focus: "50% 35%" },
     favorites: {
       title: "Why He's My Favorite",
       items: [
@@ -29,7 +29,7 @@ var CHARACTERS = {
         "Bro is a well-written character, well-developed, and very memorable for me."
       ]
     },
-    location: { name: "Nibelheim", note: "The turning point", img: "../images/nibelheim", alt: "Nibelheim", ph: "images/location<br>(Nibelheim)", focus: "50% 45%" },
+    location: { name: "Nibelheim", note: "The turning point", img: "../images/nibelheim.jpg", alt: "Nibelheim", ph: "images/location<br>(Nibelheim)", focus: "50% 45%" },
     units: [
       { label: "Character Designer", value: "Tetsuya Nomura", tone: "t-dark", valueClass: "fs-5 fw-bold accent serif" },
       { label: "Voice (JP)", value: "Toshiyuki Morikawa", tone: "t-mako", valueClass: "fw-bold serif" },
@@ -44,21 +44,21 @@ var CHARACTERS = {
     subtitle: "Mercenary &middot; AVALANCHE",
     page: "cloud.html",
     blurb: "The Buster Sword, Omnislash, and a journey that starts in Midgar.",
-    portrait: { img: "../images/cloud-portrait", alt: "Cloud portrait", ph: "images/cloud-portrait<br>(face close-up)", focus: "50% 35%" },
-    fullArt:  { img: "../images/cloud-full-art", alt: "Cloud full art", ph: "images/cloud-full-art<br>(full body)", focus: "50% 10%" },
+    portrait: { img: "../images/cloud-portrait.webp", alt: "Cloud portrait", ph: "images/cloud-portrait<br>(face close-up)", focus: "50% 35%" },
+    fullArt:  { img: "../images/cloud-full-art.webp", alt: "Cloud full art", ph: "images/cloud-full-art<br>(full body)", focus: "50% 10%" },
     role: {
       title: "Protagonist",
       list: "Final Fantasy VII (1997), Final Fantasy VII: Advent Children (2005), Crisis Core: Final Fantasy VII (2007), Final Fantasy VII: Remake (2020), Final Fantasy VII: Rebirth (2024)"
     },
-    weapon: { name: "Buster Sword", note: "A giant broadsword handed down to him", img: "../images/cloud-buster-sword", alt: "Buster Sword", ph: "images/cloud-buster-sword", mediaClass: "buster-sword" },
+    weapon: { name: "Buster Sword", note: "A giant broadsword handed down to him", img: "../images/cloud-buster-sword.webp", alt: "Buster Sword", ph: "images/cloud-buster-sword", mediaClass: "buster-sword" },
     stat: { label: "Rank", value: "1st Class", note: "Claimed, never earned" },
     move: {
       name: "Omnislash",
       sub: "Final Fantasy VII &middot; Limit Break",
       text: "A storm of finishing strikes.",
-      img: "../images/cloud-omnislash"
+      img: "../images/cloud-omnislash.jpg"
     },
-    landscape: { img: "../images/cloud-landscape", alt: "Landscape", ph: "images/cloud-landscape<br>(wide landscape image)", focus: "50% 40%" },
+    landscape: { img: "../images/cloud-landscape.webp", alt: "Landscape", ph: "images/cloud-landscape<br>(wide landscape image)", focus: "50% 40%" },
     favorites: {
       title: "Why He's My Favorite",
       items: [
@@ -67,7 +67,7 @@ var CHARACTERS = {
         "Bro has the coldest Limit Breaks in the series."
       ]
     },
-    location: { name: "Midgar", note: "Where the journey begins", img: "../images/midgar", alt: "Midgar", ph: "images/location<br>(Midgar)", focus: "50% 45%" },
+    location: { name: "Midgar", note: "Where the journey begins", img: "../images/midgar.webp", alt: "Midgar", ph: "images/location<br>(Midgar)", focus: "50% 45%" },
     units: [
       { label: "Character Designer", value: "Tetsuya Nomura", tone: "t-dark", valueClass: "fs-5 fw-bold accent serif" },
       { label: "Voice (JP)", value: "Takahiro Sakurai", tone: "t-mako", valueClass: "fw-bold serif" },
@@ -82,21 +82,21 @@ var CHARACTERS = {
     subtitle: "Bartender &middot; Seventh Heaven",
     page: "tifa.html",
     blurb: "Premium Heart, Final Heaven, and a bar called Seventh Heaven.",
-    portrait: { img: "../images/tifa-portrait", alt: "Tifa portrait", ph: "images/tifa-portrait<br>(face close-up)", focus: "50% 30%" },
-    fullArt:  { img: "../images/tifa-full-art", alt: "Tifa full art", ph: "images/tifa-full-art<br>(full body)", focus: "50% 15%" },
+    portrait: { img: "../images/tifa-portrait.webp", alt: "Tifa portrait", ph: "images/tifa-portrait<br>(face close-up)", focus: "50% 30%" },
+    fullArt:  { img: "../images/tifa-full-art.webp", alt: "Tifa full art", ph: "images/tifa-full-art<br>(full body)", focus: "50% 15%" },
     role: {
       title: "Core Party Member",
       list: "Final Fantasy VII (1997), Final Fantasy VII: Advent Children (2005), Crisis Core: Final Fantasy VII (2007), Final Fantasy VII: Remake (2020), Final Fantasy VII: Rebirth (2024)"
     },
-    weapon: { name: "Premium Heart", note: "Knuckle gloves &mdash; her fists do the rest", img: "../images/tifa-premium-heart", alt: "Premium Heart", ph: "images/tifa-premium-heart", mediaClass: "gloves" },
+    weapon: { name: "Premium Heart", note: "Knuckle gloves &mdash; her fists do the rest", img: "../images/tifa-premium-heart.webp", alt: "Premium Heart", ph: "images/tifa-premium-heart", mediaClass: "gloves" },
     stat: { label: "Fighting Style", value: "Zangan-style", note: "Trained by Master Zangan" },
     move: {
       name: "Final Heaven",
       sub: "Final Fantasy VII &middot; Limit Break",
       text: "One punch, saved for last.",
-      img: "../images/tifa-final-heaven"
+      img: "../images/tifa-final-heaven.jpg"
     },
-    landscape: { img: "../images/tifa-landscape", alt: "Landscape", ph: "images/tifa-landscape<br>(wide landscape image)", focus: "50% 40%" },
+    landscape: { img: "../images/tifa-landscape.jpg", alt: "Landscape", ph: "images/tifa-landscape<br>(wide landscape image)", focus: "50% 40%" },
     favorites: {
       title: "Why She's My Favorite",
       items: [
@@ -105,7 +105,7 @@ var CHARACTERS = {
         "Her Limit Breaks hit like a truck, and the Remake trilogy did her justice."
       ]
     },
-    location: { name: "Seventh Heaven", note: "Her bar, and AVALANCHE's base", img: "../images/seventh-heaven", alt: "Seventh Heaven", ph: "images/location<br>(Seventh Heaven)", focus: "50% 45%" },
+    location: { name: "Seventh Heaven", note: "Her bar, and AVALANCHE's base", img: "../images/seventh-heaven.webp", alt: "Seventh Heaven", ph: "images/location<br>(Seventh Heaven)", focus: "50% 45%" },
     units: [
       { label: "Character Designer", value: "Tetsuya Nomura", tone: "t-dark", valueClass: "fs-5 fw-bold accent serif" },
       { label: "Voice (JP)", value: "Ayumi Ito", tone: "t-mako", valueClass: "fw-bold serif" },
@@ -307,18 +307,30 @@ var LAYOUTS = {
 
 function bindImages() {
   document.querySelectorAll('img[data-img]').forEach(function (img) {
-    var base = img.dataset.img;
-    var i = 0;
+    var src = img.dataset.img;
+    if (!src) return;
 
     img.onload = function () {
       var ph = img.parentNode.querySelector('.img-ph');
       if (ph) { ph.remove(); }
     };
-    img.onerror = function () {
-      i += 1;
-      if (i < IMG_EXTS.length) { img.src = base + IMG_EXTS[i]; } else { img.remove(); }
-    };
-    img.src = base + IMG_EXTS[0];
+    
+    // If the path already has an extension, use it. 
+    // Otherwise fallback to the multi-extension search.
+    if (src.match(/\.(jpg|jpeg|png|webp|svg)$/i)) {
+      img.src = src;
+    } else {
+      var i = 0;
+      img.onerror = function () {
+        i += 1;
+        if (i < IMG_EXTS.length) { 
+          img.src = src + IMG_EXTS[i]; 
+        } else { 
+          img.remove(); 
+        }
+      };
+      img.src = src + IMG_EXTS[0];
+    }
   });
 }
 
